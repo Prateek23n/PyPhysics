@@ -4,28 +4,28 @@ Taking from gravity to gravitation constants to reaching the horizons of micro-l
 
 All the constants' value has been taken reference from: http://web.mit.edu/birge/Public/formulas/phys-const.pdf
 
-import pyphysics
+import physics.pyphysics as phy
 
-print(pyphysics.g)
+print(phy.g)
 
-print(pyphysics.mu)
+print(phy.mu)
 
-print(pyphysics.plank) 
+print(phy.plank) 
 
 print(pyphysics.impedance)
 
-print(pyphysics.charge)
+print(phy.charge)
 
-print(pyphysics.flux)
+print(phy.flux)
 
-print(pyphysics.me)    #-> Gives the mass of electron
+print(phy.me)    #-> Gives the mass of electron
 
-print(pyphysics.mp)    # -> Gives the  mass of proton
+print(phy.mp)    # -> Gives the  mass of proton
 
-print(pyphysics.boltzman)
+print(phy.boltzman)
 
-print(pyphysics.rydberg)
+print(phy.rydberg)
 
-print(pyphysics.gravitation)
+print(phy.gravitation)
 
-print(pyphysics.bohr_radius)
+print(phy.bohr_radius)
